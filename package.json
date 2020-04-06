@@ -1,6 +1,6 @@
 {
   "name": "redis-toolbox",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Redis utilities that allows developers to utilize Redis for Session Management, Job Queue processing and so on.",
   "main": "dist/src/index.js",
   "types": "dist/src/index.d.ts",

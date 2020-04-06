@@ -1,5 +1,3 @@
-import { RedisSessionManager } from './lib/sessions';
-
-export default {
-  RedisSessionManager,
-};
+export {
+  RedisSessionManager, RedisSessionOptions, RedisSessionObject, onRedisSessionErrorCallback
+} from './lib/sessions';
