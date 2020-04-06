@@ -1,0 +1,52 @@
+{
+  "name": "redis-toolbox",
+  "version": "0.1.0",
+  "description": "Redis utilities that allows developers to utilize Redis for Session Management, Job Queue processing and so on.",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
+  "files": [
+    "dist/src"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adonisv79/redis-utils.git"
+  },
+  "keywords": [
+    "redis",
+    "session",
+    "queue",
+    "worker"
+  ],
+  "author": "Adonis Lee Villamor",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adonisv79/redis-utils/issues"
+  },
+  "homepage": "https://github.com/adonisv79/redis-utils#readme",
+  "devDependencies": {
+    "@types/ioredis": "^4.14.9",
+    "@types/jest": "^25.1.4",
+    "@types/node": "^13.9.5",
+    "@types/redis": "^2.8.17",
+    "@types/uuid": "^7.0.2",
+    "@typescript-eslint/eslint-plugin": "^2.25.0",
+    "@typescript-eslint/parser": "^2.25.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.1.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.19.0",
+    "eslint-plugin-react-hooks": "^3.0.0",
+    "jest": "^25.2.3",
+    "ts-jest": "^25.2.1",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "ioredis": "4.16.1",
+    "redis": "3.0.2",
+    "uuid": "7.0.3"
+  }
+}
