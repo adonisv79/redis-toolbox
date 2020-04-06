@@ -1,5 +1,5 @@
 # redis-toolbox
-![Redis toolbox banner](https://github.com/adonisv79/redis-toolbox/docs/images/banner.png)
+![Redis toolbox banner](https://adonisv79.github.io/redis-toolbox/images/banner.png)
 
 Redis utilities that allows developers to utilize Redis for Session Management, Job Queue processing and so on.
 ## Installation
