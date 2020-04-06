@@ -143,7 +143,7 @@ export class RedisSessionManager {
 
   /** Creates a new user session */
   async createSession(): Promise<RedisSessionObject> {
-    const sObj: RedisSessionObject = { sessionDate: 0, sessionId: '', ttl: -1 };
+    const sObj: RedisSessionObject = { sessionDate: 0, sessionId: '' };
     try {
       const sessionDate = new Date().getTime();
       const sessionId = uuidv4();
@@ -165,7 +165,7 @@ export class RedisSessionManager {
    * @param sessionId The unique Session Id
    */
   async retrieveSession(sessionId: string): Promise<RedisSessionObject> {
-    let sObj: RedisSessionObject = { sessionDate: 0, sessionId: '', ttl: -1 };
+    let sObj: RedisSessionObject = { sessionDate: 0, sessionId: '' };
     try {
       const result = await rclient.get(this.getRedisSessionKey(sessionId));
       if (!result) {
